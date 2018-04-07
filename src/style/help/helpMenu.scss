@@ -1,0 +1,38 @@
+@import "../baseVariable";
+.help-menu-container{
+  width: 120px;
+  .menu-li{
+    padding:12px 0;
+    display: table;
+    position: relative;
+    &:first-child{
+      padding-top: 0px;
+    }
+    &:last-child{
+      //padding-bottom: 0px;
+    }
+    &:after{
+      transition:all .3s ease-out;
+      content:"";
+      position:absolute;
+      bottom:5px;
+      left: 0;
+      height:5px;
+      width:0%;
+      background-color: $baseColor;
+    }
+    a{
+      color:#333
+    }
+    &.active{
+      a{
+        color:$baseColor;
+      }
+      &:after{
+        width:100%;
+      }
+    }
+  }
+
+
+}

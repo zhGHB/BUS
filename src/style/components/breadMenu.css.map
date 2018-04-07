@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,gBAAgB,EAAE,OAAO;EACzB,mBAAS;IACP,OAAO,EAAC,MAAM;IACd,OAAO,EAAE,IAAI;EAEf,oBAAU;IACR,MAAM,EAAC,KAAK",
+"sources": ["breadMenu.scss"],
+"names": [],
+"file": "breadMenu.css"
+}

@@ -1,0 +1,64 @@
+@import "../baseVariable";
+.search-list-filter{
+  margin-bottom: 10px;
+  &-btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &-btn{
+    height:34px;
+    padding:0 25px;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: center;
+    color:$baseColor;
+    border-radius: 4px;
+    background-color: #fff;
+    align-items: center;
+    //&:after{
+    //  content:"";
+    //  display: block;
+    //  width: 10px;
+    //  height: 10px;
+    //  border-bottom: 2px solid #333;
+    //  border-right:2px solid #333;
+    //  transform: rotate(45deg);
+    //  margin-bottom:5px;
+    //  margin-left:10px;
+    //  transition:.4s all ease-out;
+    //}
+    img{
+      margin-left:6px;
+      transition:.4s all ease-out;
+      transform: rotate(180deg);
+    }
+    &.active{
+      img{
+        transform: rotate(0deg);
+      }
+    }
+    &:active{
+      background-color: rgba(255,127,0,.2);
+
+    }
+  }
+  &-detail{
+    padding:20px 15px;
+    background-color: #fff;
+    margin-top:10px;
+    display: none;
+  }
+  &-row{
+    flex:1;
+  }
+  &-sure-btn-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  &-sure-btn{
+    width: 345px;
+    height:35px;
+    border-radius: 4px;
+  }
+}

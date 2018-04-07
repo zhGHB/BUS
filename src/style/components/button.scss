@@ -1,0 +1,41 @@
+@import "../baseVariable";
+.ys-comp-button{
+  height:39px;
+  padding: 0 28px;
+  font-size: 16px;
+  &.default{
+    color:#fff;
+    background-color: $baseColor;
+    &:active{
+      background-color: #ff5e00;
+    }
+  }
+  &.white{
+    background-color: #fff;
+    border:1px solid #333;
+    color:#333;
+    border-radius: 4px;
+    &:active{
+      background-color: #f5f5f5;
+      border-color:#000;
+      color:#000;
+    }
+  }
+  &.black{
+    background-color: #333;
+    color:#fff;
+    border-radius: 4px;
+    &:active{
+      background-color: #000;
+    }
+  }
+  &.orange{
+    border:1px solid $baseColor;
+    background-color: #fff;
+    color:$baseColor;
+    border-radius: 4px;
+    &:active{
+      background-color: #fff2e5;
+    }
+  }
+}

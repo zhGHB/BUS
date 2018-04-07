@@ -1,0 +1,73 @@
+@import "../baseVariable";
+div[disabled]{
+  background-color: #e7e7e7;
+  cursor:not-allowed;
+}
+.ys-select-wrapper{
+  height:36px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  &.active{
+    .ys-select-value:after{
+      transform:rotate(225deg);
+    }
+  }
+  .ys-select-value{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #E4E4E4;
+    border-radius: 4px;
+    //&:after{
+    //  content:"";
+    //  display: block;
+    //  width: 10px;
+    //  height: 10px;
+    //  //border-left: 6px solid transparent;
+    //  //border-right: 6px solid transparent;
+    //  border-bottom: 2px solid #333;
+    //  border-right:2px solid #333;
+    //  transform: rotate(45deg);
+    //  //position:absolute;
+    //  margin-bottom:5px;
+    //  margin-left:10px;
+    //  transition:.4s all ease-out;
+    //}
+  }
+  .over-scroll{
+    //overflow: auto;
+
+  }
+  .ys-select-ul{
+    //position:absolute;
+    z-index: 9999;
+    background-color: #fff;
+    width:100%;
+    border:1px solid #E4E4E4;
+    margin-top:1px;
+    transition:.4s height ease-out;
+    max-height: 100px;
+    position: absolute;
+  }
+  .ys-select-li{
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor:pointer;
+    //transition:.4s all ease-out;
+    &:hover{
+      background-color:$baseColor;
+    }
+    &:last-child .ys-select-li-option{
+      border-bottom:none;
+    }
+  }
+  .ys-select-li-option{
+    //border-bottom: 1px solid #E4E4E4;
+    line-height: 36px;
+    text-align: center;
+  }
+
+}

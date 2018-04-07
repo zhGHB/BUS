@@ -1,0 +1,42 @@
+.about-us-container{
+  width: 100%;
+  display: flex;
+  padding:35px 140px 47px 140px;
+  @media (max-width: 992px){
+    padding:10px 0px;
+  }
+
+  &-content{
+    flex: 1;
+    background-color: #fff;
+    border-radius: 6px;
+
+    &-title{
+      color: #333;
+      font-size: 1.6rem;
+      font-weight: bold;
+      padding-left: 20px;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+      height: 60px;
+      line-height: 60px;
+      width: 100%;
+      background-color: #FFF2E5;
+    }
+
+    &-txt{
+      font-size: 1.4rem;
+      color: #666;
+      padding:0px 83px 68px 83px;
+      p{
+        margin-top: 30px;
+      }
+      @media (max-width: 992px){
+        padding:10px 10px;
+        & p{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

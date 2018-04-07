@@ -1,0 +1,26 @@
+.ys-comp-button {
+  height: 39px;
+  padding: 0 28px;
+  font-size: 16px; }
+  .ys-comp-button.default {
+    color: #fff;
+    background-color: #FF7F00; }
+    .ys-comp-button.default:active {
+      background-color: #ff5e00; }
+  .ys-comp-button.white {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 4px; }
+    .ys-comp-button.white:active {
+      background-color: #f5f5f5;
+      border-color: #000;
+      color: #000; }
+  .ys-comp-button.black {
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px; }
+    .ys-comp-button.black:active {
+      background-color: #000; }
+
+/*# sourceMappingURL=button.css.map */

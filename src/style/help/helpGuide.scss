@@ -1,0 +1,64 @@
+@import "../baseVariable";
+.help-guide-box{
+  display: flex;
+  .helpSwiper{
+    height: 577px;
+    width: 1022px;
+    border-radius: 6px;
+    background: #fff;
+    margin-bottom: 61px;
+    display: flex;
+    padding:50px 117px 0px 117px;
+    .swiper-container{
+      margin-bottom: 20px;
+      &:hover{
+        .swiper-button-prev{
+          display: block;
+        }
+        .swiper-button-next{
+          display: block;
+        }
+      }
+    }
+    .swiper-button-next{
+      width:40px;
+      height: 40px;
+      background: url("../../images/help/btn-right-default.png");
+      display: none;
+    }
+    .swiper-button-prev{
+      width:40px;
+      height: 40px;
+      background: url("../../images/help/btn-left-default.png");
+      display: none;
+    }
+
+    .swiper-pagination{
+      display: flex;
+      justify-content: center;
+    }
+    .swiper-pagination-customs{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      height:25px;
+      width:25px;
+      padding:8px 6px;
+      margin: 0px 14px;
+      border-radius: 4px;
+      background-color: #e6e6e6;
+      //color: #fff;
+      opacity: 1;
+    }
+    .swiper-pagination-customs-active{
+      background-color: $baseColor;
+      color: white;
+    }
+    .swiper-img{
+      width: 788px;
+      height:459px;
+    }
+  }
+
+}

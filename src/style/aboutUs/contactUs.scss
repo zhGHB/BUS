@@ -1,0 +1,58 @@
+.contact-us-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:35px 140px 47px 140px;
+  @media (max-width: 992px){
+    padding:10px 0px;
+  }
+
+  &-content{
+    flex: 1;
+    background-color: #fff;
+    //background: #fff url("../../images/aboutUs/contact-us-bg.png") contain no-repeat bottom ;
+    background-image:url("../../images/aboutUs/contact-us-bg.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    border-radius: 6px;
+
+    &-title{
+      color: #333;
+      font-size: 1.6rem;
+      font-weight: bold;
+      padding-left: 20px;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+      height: 60px;
+      line-height: 60px;
+      width: 100%;
+      background-color: #FFF2E5;
+    }
+
+    &-detail{
+      padding: 77px 0px 175px 60px;
+      @media (max-width: 992px){
+        padding: 20px 0px 100px 10px;
+      }
+
+      & >div{
+        margin-bottom: 30px;
+        font-size: 1.4rem;
+        color: #595068;
+        display: flex;
+        align-items: center;
+        @media (max-width: 992px){
+          margin-bottom: 20px;
+        }
+        & >img{
+          margin-right: 16px;
+        }
+      }
+
+      & div:last-child{
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

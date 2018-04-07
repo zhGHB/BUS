@@ -1,0 +1,121 @@
+.pay-way-title {
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 20px 0; }
+.pay-way .count-down-text {
+  display: inline-block;
+  width: 43px;
+  text-align: center; }
+.pay-way-select {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  background: #fff; }
+.pay-way-money {
+  padding: 40px 0 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+  font-size: 2rem;
+  color: #FF7F00; }
+.pay-way-select-label {
+  color: #999;
+  padding: 15px 40px 0 40px; }
+.pay-way-select-list {
+  padding: 0 30px; }
+.pay-way-select-row {
+  height: 50px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  width: 100%;
+  margin-top: 15px; }
+  .pay-way-select-row.active {
+    border: 1px solid #FF7F00; }
+.pay-way-select-pay {
+  margin-top: 50px;
+  border-top: 1px solid #e6e6e6;
+  padding: 35px 40px;
+  display: flex;
+  justify-content: space-between; }
+  .pay-way-select-pay .go-on-pay-btn {
+    height: 34px;
+    padding: 0 30px;
+    border-radius: 4px; }
+  .pay-way-select-pay .cancel-pay-btn {
+    height: 34px;
+    padding: 0 30px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    font-size: 1.6rem; }
+    .pay-way-select-pay .cancel-pay-btn:active {
+      background-color: #e6e6e6; }
+
+.credit-card-pay {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  margin-top: 25px; }
+  .credit-card-pay-title {
+    padding: 40px 170px 10px 170px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media (max-width: 992px) {
+      .credit-card-pay-title {
+        padding: 50px 30px 15px 30px; } }
+  .credit-card-pay-support {
+    padding: 20px 170px 0 170px; }
+    @media (max-width: 992px) {
+      .credit-card-pay-support {
+        padding: 20px 30px 0 30px; } }
+  .credit-card-pay-content {
+    padding: 0 150px; }
+    @media (max-width: 992px) {
+      .credit-card-pay-content {
+        padding: 0 30px; } }
+  .credit-card-pay-row {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px; }
+    @media (max-width: 992px) {
+      .credit-card-pay-row {
+        padding: 0; } }
+  .credit-card-pay-input {
+    height: 34px;
+    width: 100%; }
+  .credit-card-pay-pay-wrapper {
+    margin-top: 30px;
+    padding: 0px 170px; }
+    @media (max-width: 992px) {
+      .credit-card-pay-pay-wrapper {
+        padding: 35px 0; } }
+  .credit-card-pay-pay {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between; }
+    .credit-card-pay-pay .go-on-pay-btn {
+      height: 34px;
+      padding: 0 30px;
+      border-radius: 4px; }
+    .credit-card-pay-pay .cancel-pay-btn {
+      height: 34px;
+      padding: 0 30px;
+      border-radius: 4px;
+      background-color: #fafafa;
+      border: 1px solid #e6e6e6;
+      font-size: 1.6rem; }
+      .credit-card-pay-pay .cancel-pay-btn:active {
+        background-color: #e6e6e6; }
+
+/*# sourceMappingURL=payWay.css.map */

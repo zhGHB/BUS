@@ -1,0 +1,23 @@
+@import "../baseVariable";
+.comp-get-msg-wrapper{
+  .get-msg-input{
+    height:35px;
+    width:100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+  }
+  .get-msg-btn{
+    border:1px solid #e6e6e6;
+    border-left: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    color:$baseColor;
+    padding:0 10px;
+    &:active{
+      background-color: $baseColor;
+      color:#fff;
+    }
+  }
+}

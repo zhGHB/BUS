@@ -1,0 +1,43 @@
+@import "../baseVariable";
+.search-list-nav{
+  background-color: rgba(255,127,0,.4);
+  padding :14px 0px;
+  &-btn{
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0px 9px;
+    margin-right: 10px;
+    background-color: #999999;
+  }
+  &-car{
+    margin-right:20px;
+  }
+  &-input-wrapper{
+    margin-right:10px;
+    position: relative;
+    height:42px;
+  }
+  &-icon{
+    position:absolute;
+    right:8px;
+    top:12px;
+  }
+  &-start-input{
+    width:220px;
+  }
+  &-date-input{
+    width:150px;
+  }
+  &-search-btn{
+    height: 42px;
+    border-radius: 4px;
+    padding: 0 28px;
+    color:#fff;
+    background-color: $baseColor;
+    &:active{
+      background-color: #ff5e00;
+    }
+  }
+}

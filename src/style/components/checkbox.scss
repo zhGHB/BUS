@@ -1,0 +1,49 @@
+@import "../baseVariable";
+.comp-checkbox-inner{
+  height:16px;
+  width:16px;
+  display: inline-block;
+  background-color: #fff;
+  border:2px solid #999;
+  border-radius:4px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition:.3s all ease-out;
+  }
+}
+.checkbox-checked{
+  .comp-checkbox-inner{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    //border: 1px solid #e6e6e6;
+    background: $baseColor;
+    border:none;
+    &:before{
+      transform: rotate(45deg) scale(1);
+    }
+  }
+
+}
+.comp-checkbox{
+  position:relative;
+  height:16px;
+  margin-right: 5px;
+}
+.comp-checkbox-wrapper{
+  display: flex;
+  align-items: center;
+  height: 16px;
+}

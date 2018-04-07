@@ -1,0 +1,50 @@
+div[disabled] {
+  background-color: #e7e7e7;
+  cursor: not-allowed; }
+
+.ys-select-wrapper {
+  width: 400px;
+  height: 36px;
+  position: relative;
+  cursor: pointer; }
+  .ys-select-wrapper.active .ys-select-value:after {
+    transform: rotate(225deg); }
+  .ys-select-wrapper .ys-select-value {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E4E4E4; }
+    .ys-select-wrapper .ys-select-value:after {
+      content: "";
+      display: block;
+      width: 10px;
+      height: 10px;
+      border-bottom: 2px solid #333;
+      border-right: 2px solid #333;
+      transform: rotate(45deg);
+      margin-bottom: 5px;
+      margin-left: 10px;
+      transition: .4s all ease-out; }
+  .ys-select-wrapper .ys-select-ul {
+    z-index: 9999;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    margin-top: 1px;
+    transition: .4s height ease-out;
+    max-height: 100px; }
+  .ys-select-wrapper .ys-select-li {
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer; }
+    .ys-select-wrapper .ys-select-li:hover {
+      background-color: #FF7F00; }
+    .ys-select-wrapper .ys-select-li:last-child .ys-select-li-option {
+      border-bottom: none; }
+  .ys-select-wrapper .ys-select-li-option {
+    line-height: 36px;
+    text-align: center; }
+
+/*# sourceMappingURL=select.css.map */

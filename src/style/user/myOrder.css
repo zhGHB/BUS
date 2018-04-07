@@ -1,0 +1,94 @@
+.my-order {
+  flex: 1; }
+  .my-order-tab {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e6e6e6; }
+    .my-order-tab .tab-btn {
+      padding: 0 25px;
+      position: relative; }
+      .my-order-tab .tab-btn:after {
+        transition: all .3s ease-out;
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        left: 0px;
+        height: 3px;
+        width: 0%;
+        background-color: #FF7F00; }
+    .my-order-tab .active:after {
+      width: 100%; }
+  .my-order-list {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 0 40px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6; }
+    .my-order-list-title {
+      padding: 10px 0;
+      border-bottom: 1px solid #e6e6e6;
+      color: #999;
+      font-size: 1.6rem;
+      display: flex;
+      justify-content: space-between; }
+      .my-order-list-title-cell {
+        display: flex;
+        align-items: center;
+        width: 180px; }
+    .my-order-list-info {
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .my-order-list .info-cell {
+      display: flex;
+      align-items: center; }
+    .my-order-list .line-img {
+      margin: 0 10px 0 30px; }
+    .my-order-list-button-row {
+      padding: 20px 0;
+      border-top: 1px solid #e6e6e6;
+      display: flex;
+      justify-content: flex-end; }
+  .my-order .order-btn {
+    height: 34px;
+    margin-left: 15px;
+    border-radius: 4px; }
+
+.my-order-detail {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  flex: 1;
+  font-size: 1.6rem; }
+  .my-order-detail-title {
+    border-bottom: 1px solid #e6e6e6;
+    height: 90px;
+    padding: 30px 20px 10px 20px; }
+  .my-order-detail .title-row {
+    display: flex;
+    justify-content: space-between; }
+  .my-order-detail-train-info {
+    padding: 20px;
+    border-bottom: 1px solid #e6e6e6; }
+  .my-order-detail .info-row {
+    margin-bottom: 18px;
+    color: #666; }
+  .my-order-detail-site-info {
+    padding: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #666; }
+  .my-order-detail-contact-info {
+    padding: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #666; }
+  .my-order-detail-btn-wrapper {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center; }
+  .my-order-detail .time-span {
+    display: inline-block;
+    width: 50px; }
+  .my-order-detail .time-tips {
+    margin-left: 36px; }
+
+/*# sourceMappingURL=myOrder.css.map */

@@ -1,0 +1,144 @@
+@import "../baseVariable";
+.bus-dynamic-bg-img{
+  height:400px;
+  width: 100%;
+}
+.bus-dynamic{
+  height:200px;
+  width: 100%;
+  background-color: #f5f5f5;
+  position: relative;
+  &-wrapper{
+    background-color: rgba(255,255,255,.3);
+    height:200px;
+    position:absolute;
+    width: 100%;
+    top:-100px;
+    padding:10px;
+    @media (max-width: 992px){
+      height: auto;
+    }
+  }
+  &-inner{
+    height: 100%;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 992px){
+      flex-direction: column;
+      padding: 30px;
+    }
+  }
+  &-label{
+    border: 1px solid #63A1EA;
+    padding:1px;
+    margin-right:20px;
+    @media (max-width: 992px){
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom:20px;
+    }
+    div{
+      height:32px;
+      line-height:32px;
+      background-color: #63A1EA;
+      color:#fff;
+      padding:0 20px;
+      @media (max-width: 992px){
+        width: 100%;
+      }
+    }
+  }
+  &-input{
+    height:36px !important;
+    width: 400px;
+    border-radius: 0;
+    margin-right:20px;
+    @media (max-width: 992px){
+      width: 100%;
+      margin-right: 0px;
+    }
+  }
+  &-date{
+    height:36px;
+    line-height: 36px;
+    border:1px solid #e6e6e6;
+    padding:0 20px;
+    margin-right:20px;
+  }
+  &-search-btn{
+    height:36px;
+    padding:0 45px;
+    @media (max-width: 992px){
+      width: 100%;
+    }
+  }
+}
+.bus-dynamic-detail{
+  &-info{
+    background-color: #fff;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    &-circle{
+      height:18px;
+      width:18px;
+      border-radius: 18px;
+      background-color: $baseColor;
+      &:last-child{
+        margin-left: -1px;
+        background-color: #ccc;
+      }
+    }
+    &-line{
+      height:8px;
+      width:288px;
+      background-color: #ccc;
+      margin-left: -1px;
+    }
+    .inner-line{
+      height:8px;
+      width:50%;
+      background-color: $baseColor;
+    }
+  }
+  .bus-icon{
+    position: absolute;
+    top:-27px;
+    height:30px;
+    width:30px;
+    left:50%;
+  }
+  &-station-row{
+    display: flex;
+    margin-top:60px;
+  }
+  &-driver-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+  }
+}
+.bus-dynamic-date-input{
+  width: 120px;
+  margin-right: 20px;
+  height: 36px !important;
+  border-radius: 0;
+  @media (max-width: 992px){
+    width: 100%;
+  }
+}
+.bus-dynamic-date-input-wrapper{
+  margin: 20px 0;
+  @media (max-width: 992px){
+    width: 100%;
+    &:first-child{
+      width: 100%;
+    }
+  }
+}

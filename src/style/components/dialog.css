@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+  .comp-dialog {
+    width: 880px !important;
+    overflow: auto; } }
+.comp-dialog-title-wrapper {
+  background-color: #f5f5f5;
+  padding: 8px 26px;
+  display: flex;
+  justify-content: space-between; }
+
+.layui-layer-content {
+  border-radius: 4px; }
+
+/*# sourceMappingURL=dialog.css.map */

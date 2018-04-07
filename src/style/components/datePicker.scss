@@ -1,0 +1,17 @@
+.date-picker-custom{
+  height:36px;
+  padding:0 30px;
+  width: 100%;
+}
+.react-datepicker__day--selected{
+  background-color: #FF7F00 ;
+  &:hover{
+    background-color: #FF7F00 ;
+  }
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+.react-datepicker__input-container{
+  width:100%;
+}

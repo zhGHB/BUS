@@ -1,0 +1,56 @@
+@import "../baseVariable";
+.search-list-filter-title{
+  background-color: #fff;
+  padding:8px 28px;
+  border-bottom:3px solid $baseColor;
+  &-wrapper{
+    width: 100%;
+    display: flex;
+  }
+  .filter-title-col1{
+    width:12%;
+  }
+  .filter-title-col2{
+    width:30%;
+  }
+  .filter-title-col3{
+    width:16%;
+  }
+  .filter-title-col4{
+    width:8%;
+  }
+  .filter-title-col5{
+     width:10%;
+   }
+  .filter-sort{
+    position: relative;
+    &:before{
+      border-bottom:5px solid #999;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      content:"";
+      position:absolute;
+      top:4px;
+    }
+    &:after{
+      border-top:5px solid #999;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      content:"";
+      position:absolute;
+      bottom:4px;
+
+    }
+    &.asc{
+      &:before{
+        border-bottom:5px solid $baseColor;
+      }
+    }
+    &.des{
+      &:after{
+        border-top:5px solid $baseColor;
+      }
+    }
+  }
+
+}

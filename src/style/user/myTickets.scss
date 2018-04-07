@@ -1,0 +1,139 @@
+@import "../baseVariable";
+.my-tickets{
+  flex:1;
+
+  .today-ticket{
+    .my-tickets-list-title{
+      background-color: #FF9933;
+      color:#fff;
+    }
+  }
+  .used-ticket{
+    .my-tickets-list-title{
+      background-color: #d6d6d6;
+      color:#fff;
+    }
+    .order-btn{
+      background-color: #d6d6d6;
+      &:active{
+        background-color: #e6e6e6;
+      }
+    }
+  }
+  &-list{
+    background-color: #fff;
+    margin-top:10px;
+    border-radius:4px;
+    border:1px solid #e6e6e6;
+
+    &-title{
+      padding:10px 40px;
+      color:#666;
+      font-size:1.6rem;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(255,153,51,.2);
+      &-cell{
+        display: flex;
+        align-items: center;
+      }
+    }
+    &-info{
+      padding:0px 40px ;
+    }
+    .info-cell{
+      display: flex;
+      align-items:center;
+    }
+    .line-img{
+      margin:0 10px 0 30px;
+    }
+    &-button-row{
+      padding:20px 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .order-btn{
+    height:35px;
+    margin-left:15px;
+    border-radius: 4px;
+    background-color: #FF9933;
+  }
+  .refund-btn{
+    height:35px;
+  }
+  .border-bottom-line{
+    padding:24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+  }
+}
+.ticket-comp{
+  border-radius: 4px;
+  width:500px;
+}
+.e-tickets{
+  border-radius: 4px;
+  &.disabled{
+    .e-tickets-title{
+      background-color: #ccc;
+    }
+    .bottom-line{
+      border-color: #ccc;
+    }
+  }
+  &-title{
+    padding:20px 20px 10px 20px;
+    background-color: #FF9933;
+    color:#fff;
+    &-row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+  }
+  &-info{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  &-tips{
+    padding:20px;
+    color:#666;
+  }
+  .bottom-line{
+    border-bottom: 5px solid #FF9933;
+  }
+  .refund-info{
+    background-color: #fff;
+    padding:0 20px;
+    &-row{
+      padding:40px 0 10px 0 ;
+      border-bottom:1px solid #e6e6e6;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.6rem;
+    }
+    &-btn{
+      padding: 40px 0;
+      display: flex;
+      justify-content: center;
+    }
+    .refund-btn{
+      padding: 0 70px;
+      height:34px;
+      border-radius: 4px;
+      background-color: #FF9933;
+      &:active{
+        background-color: $baseColor;
+      }
+    }
+  }
+}

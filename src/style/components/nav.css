@@ -1,0 +1,15 @@
+.layout-nav-container {
+  height: 70px;
+  background-color: #fff;
+  padding: 0 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .layout-nav-container .nav-btn {
+    line-height: 70px;
+    padding: 0 25px; }
+    .layout-nav-container .nav-btn.active {
+      background-color: #FAFAFA;
+      color: #FF7F00; }
+
+/*# sourceMappingURL=nav.css.map */

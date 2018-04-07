@@ -1,0 +1,33 @@
+.the-FAQ{
+  background-color: #fff;
+  flex: 1;
+  margin-bottom: 64px;
+  .they-FAQ-title{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #333;
+    background-color:#FFF2E5 ;
+  }
+  .the-FAQ-content{
+    padding:40px 20px;
+
+    .the-FAQ-content-margin{
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .font-title-16{
+    font-size: 1.6rem;
+    color: #FF7F00;
+    margin-bottom: 10px;
+  }
+  .font-content-15{
+    font-size: 1.5rem;
+    color: #666;
+    text-indent:25px
+  }
+}

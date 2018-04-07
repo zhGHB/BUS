@@ -1,0 +1,76 @@
+.user-login{
+  border:1px solid #e6e6e6;
+  border-radius: 4px;
+  &-tab{
+    display: flex;
+  }
+  .tab-wrapper{
+    padding:12px 0;
+    display: flex;
+    align-items: center;
+    color:#999;
+    background-color: #f5f5f5;
+    flex: 1;
+    justify-content: center;
+    &:first-child{
+      border-top-left-radius: 4px;
+    }
+    &:last-child{
+      border-top-right-radius: 4px;
+    }
+    &.active{
+      background-color: #333;
+      color:#fff;
+    }
+  }
+  &-input-wrapper{
+    background-color: #fff;
+    padding:45px 340px;
+    @media (max-width: 992px){
+      padding:45px 30px;
+    }
+  }
+  &-input-row{
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+  }
+  .login-input{
+    height:35px;
+    flex:1;
+  }
+  .valid-code{
+    width:100px;
+    height:35px;
+    margin:0 10px;
+    line-height: 35px;
+    font-family:Arial;
+    font-style:italic;
+    color:#828282;
+    font-size:3rem;
+    letter-spacing: 8px;
+    background: url("../../images/user/bg-code.jpg") 100px 35px;
+  }
+  .fill-width{
+    width: 20px;
+  }
+  .login-btn{
+    height:35px;
+    background-color: #333;
+    border-radius: 4px;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+  }
+  .register-btn{
+    height:35px;
+    background-color: #fff;
+    border-radius: 4px;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    color:#333;
+    border:1px solid #333;
+  }
+}

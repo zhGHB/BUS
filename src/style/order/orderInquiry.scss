@@ -1,0 +1,32 @@
+.order-inquiry{
+  margin-bottom: 200px;
+  &-header{
+    font-size: 1.5rem;
+    height: 40px;
+    background-color: #fff2e5;
+    padding:12px 0px 12px 12px;
+    color: #333;
+  }
+  &-body{
+    display: flex;
+    padding:30px 342px 78px 342px;
+    @media (max-width: 992px){
+      padding:38px 30px;
+    }
+    flex-direction: column;
+    background-color: #fff;
+    .flex1{
+      flex: 1;
+    }
+    .input-row{
+      display: flex;
+      flex-direction: row;
+    }
+    .input-bottom24{
+      margin-bottom: 24px;
+    }
+    .input-bottom34{
+      margin-bottom: 34px;
+    }
+  }
+}

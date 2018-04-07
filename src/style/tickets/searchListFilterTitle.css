@@ -1,0 +1,39 @@
+.search-list-filter-title {
+  background-color: #fff;
+  padding: 8px 28px;
+  border-bottom: 3px solid #FF7F00; }
+  .search-list-filter-title-wrapper {
+    width: 100%;
+    display: flex; }
+  .search-list-filter-title .filter-title-col1 {
+    width: 12%; }
+  .search-list-filter-title .filter-title-col2 {
+    width: 30%; }
+  .search-list-filter-title .filter-title-col3 {
+    width: 16%; }
+  .search-list-filter-title .filter-title-col4 {
+    width: 8%; }
+  .search-list-filter-title .filter-title-col5 {
+    width: 10%; }
+  .search-list-filter-title .filter-sort {
+    position: relative; }
+    .search-list-filter-title .filter-sort:before {
+      border-bottom: 5px solid #999;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      content: "";
+      position: absolute;
+      top: 4px; }
+    .search-list-filter-title .filter-sort:after {
+      border-top: 5px solid #999;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      content: "";
+      position: absolute;
+      bottom: 4px; }
+    .search-list-filter-title .filter-sort.asc:before {
+      border-bottom: 5px solid #FF7F00; }
+    .search-list-filter-title .filter-sort.des:after {
+      border-top: 5px solid #FF7F00; }
+
+/*# sourceMappingURL=searchListFilterTitle.css.map */

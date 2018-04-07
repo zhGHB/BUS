@@ -1,0 +1,59 @@
+@import "../baseVariable";
+.refund-success{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #E6E6E6;
+  margin-bottom: 77px;
+
+  &-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 38px;
+    width: 500px;
+    @media (max-width: 992px){
+      padding:38px 30px;
+      width: 315px;
+    }
+    .font-24{
+      font-size: 2.4rem;
+      color: #4F4F4F;
+      margin-top: 17px;
+    }
+  }
+  &-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 11px;
+    padding-bottom: 28px;
+
+    &-font{
+      display: flex;
+      font-size: 1.4rem;
+      color: #999;
+
+      .font-14-right{
+        margin-right: 269px;
+        @media (max-width: 992px){
+          margin-right: 150px;
+        }
+      }
+    }
+    .refund-success-btn{
+      margin-top: 49px;
+      font-size: 1.6rem;
+      display: flex;
+      justify-content: center;
+      &-left{
+        border-radius: 4px;
+        height: 34px;
+      }
+    }
+  }
+
+}

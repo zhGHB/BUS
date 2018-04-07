@@ -1,0 +1,28 @@
+.comps-radio {
+  cursor: pointer;
+  display: flex;
+  align-items: center; }
+  .comps-radio-outer {
+    height: 14px;
+    width: 14px;
+    border-radius: 14px;
+    border: 1px solid #666;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px; }
+    .comps-radio-outer.checked .comps-radio-circle {
+      transform: scale(1); }
+  .comps-radio-circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #63A1EA;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transform: scale(0);
+    transition: all .3s ease-out; }
+
+/*# sourceMappingURL=radio.css.map */

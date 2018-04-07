@@ -1,0 +1,18 @@
+.dialog-modal-wrapper {
+  position: fixed;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  margin: 0 auto; }
+
+.dialog-modal-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,61 @@
+.personal-info {
+  display: flex; }
+  .personal-info-wrapper {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 40px 40px 60px 40px;
+    flex: 1;
+    display: flex; }
+  .personal-info .user-logo {
+    height: 180px;
+    width: 180px;
+    margin-right: 40px; }
+  .personal-info-edit-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid #E6E6E6; }
+  .personal-info .info-row {
+    margin-top: 12px;
+    font-size: 1.6rem; }
+
+.edit-personal-info {
+  display: flex; }
+  .edit-personal-info-wrapper {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 40px;
+    flex: 1; }
+  .edit-personal-info-title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 2rem; }
+  .edit-personal-info-fill {
+    display: flex; }
+    @media (max-width: 992px) {
+      .edit-personal-info-fill {
+        flex-direction: column; } }
+  .edit-personal-info-cell {
+    flex: 1;
+    padding-right: 40px; }
+  .edit-personal-info-row {
+    display: flex;
+    align-items: center;
+    margin-top: 24px; }
+    .edit-personal-info-row label {
+      font-weight: normal;
+      width: 60px;
+      margin-bottom: 0; }
+  .edit-personal-info .edit-user-logo {
+    height: 156px;
+    width: 156px;
+    margin-top: 24px;
+    margin-bottom: 25px; }
+  .edit-personal-info .edit-btn {
+    height: 35px;
+    width: 156px; }
+
+/*# sourceMappingURL=personalInfo.css.map */

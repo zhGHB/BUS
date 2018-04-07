@@ -1,0 +1,19 @@
+.h-search-sort-container{
+  padding: 18px 0px 18px 15px;
+  background-color: #fff;
+  width: 100%;
+  &-title{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 7px;
+  }
+  &-checkbox{
+    display: flex;
+    flex-direction: column;
+
+    .checkbox-child{
+      padding: 8px 0px;
+    }
+  }
+}

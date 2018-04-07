@@ -1,0 +1,18 @@
+.component-input {
+  border-radius: 4px;
+  outline: none;
+  border-style: none;
+  padding: 0 8px;
+  border: 1px solid #e6e6e6; }
+  .component-input.focused {
+    border-color: #FF7F00;
+    box-shadow: 0 0 3px 1px rgba(255, 127, 0, 0.8);
+    transition: all .2s ease-out; }
+  .component-input.larger {
+    height: 35px;
+    line-height: 35px; }
+  .component-input.default {
+    height: 42px;
+    line-height: 42px; }
+
+/*# sourceMappingURL=input.css.map */

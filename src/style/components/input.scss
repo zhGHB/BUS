@@ -1,0 +1,21 @@
+@import "../baseVariable";
+.component-input{
+  border-radius: 4px;
+  outline: none;
+  border-style: none;
+  padding:0 8px;
+  border:1px solid #e6e6e6;
+  &.focused {
+    border-color: $baseColor;
+    box-shadow: 0 0 3px 1px rgba(255, 127, 0,.8);
+    transition:all .2s ease-out;
+  }
+  &.larger{
+    height:35px;
+    line-height: 35px;
+  }
+  &.default{
+    height:42px;
+    line-height: 42px;
+  }
+}

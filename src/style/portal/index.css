@@ -1,0 +1,140 @@
+.portal-index-container {
+  padding-top: 20px; }
+
+.col-sm-6 {
+  padding: 0; }
+
+.col-md-6 {
+  padding: 0; }
+
+.portal-buy-ticket {
+  margin-bottom: 20px;
+  display: flex;
+  flex: 1; }
+  @media (max-width: 992px) {
+    .portal-buy-ticket {
+      flex-direction: column; } }
+  .portal-buy-ticket-cell1 {
+    flex: 1;
+    background-color: #f5f5f5; }
+    @media (max-width: 992px) {
+      .portal-buy-ticket-cell1 {
+        padding: 0 10px; } }
+  .portal-buy-ticket-inner-cell1 {
+    border: 8px solid #FF7F00;
+    padding: 25px 20px 20px 10px; }
+    .portal-buy-ticket-inner-cell1 h3 {
+      margin-right: 20px;
+      padding-left: 3px; }
+    .portal-buy-ticket-inner-cell1-title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; }
+      .portal-buy-ticket-inner-cell1-title .trip-btn {
+        background-color: #999;
+        height: 21px;
+        line-height: 21px;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0px 9px;
+        margin-right: 10px; }
+      .portal-buy-ticket-inner-cell1-title .active {
+        background-color: #FF7F00; }
+    .portal-buy-ticket-inner-cell1 input {
+      height: 40px;
+      border: 1px solid #e6e6e6;
+      width: 100%;
+      margin-top: 10px;
+      outline: none;
+      padding-left: 8px; }
+    .portal-buy-ticket-inner-cell1 .l-col {
+      padding: 0 3px;
+      position: relative; }
+    .portal-buy-ticket-inner-cell1 .r-col {
+      padding: 0 3px;
+      position: relative; }
+    .portal-buy-ticket-inner-cell1 .site-icon {
+      position: absolute;
+      right: 10px;
+      bottom: 11px; }
+    .portal-buy-ticket-inner-cell1 .portal-search-row {
+      margin-top: 23px;
+      display: flex; }
+    .portal-buy-ticket-inner-cell1 .portal-sear-btn {
+      height: 42px;
+      background-color: #FF7F00;
+      border-radius: 4px;
+      color: #fff;
+      width: 100%; }
+  .portal-buy-ticket-cell2 {
+    flex: 1;
+    background-color: #fff; }
+    @media (max-width: 992px) {
+      .portal-buy-ticket-cell2 {
+        margin-top: 10px; } }
+    .portal-buy-ticket-cell2 .portal-info-box {
+      display: flex;
+      justify-content: space-between;
+      height: 190px; }
+      @media (max-width: 992px) {
+        .portal-buy-ticket-cell2 .portal-info-box {
+          height: 117px; } }
+    .portal-buy-ticket-cell2 .portal-info-inner-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+    .portal-buy-ticket-cell2 .portal-info-p {
+      margin-top: 20px; }
+  .portal-buy-ticket .fill-width {
+    width: 8px; }
+  .portal-buy-ticket .portal-info-bottom-box {
+    padding: 0 22px; }
+  .portal-buy-ticket .portal-info-inner-box-container {
+    border-top: 1px solid #e6e6e6;
+    padding: 18px 0; }
+
+.portal-recommend-box-container {
+  background-color: #fff;
+  padding-top: 40px;
+  margin: 20px 0; }
+
+.portal-recommend-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .portal-recommend-title-container .portal-recommend-line-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; }
+  .portal-recommend-title-container .title-line {
+    height: 3px;
+    width: 48px;
+    background-color: #FF7F00; }
+  .portal-recommend-title-container .title-circle {
+    height: 8px;
+    width: 8px;
+    border: 2px solid #FF7F00;
+    border-radius: 8px;
+    margin: 0 8px; }
+
+.portal-introduce-cell {
+  padding: 70px 0; }
+
+.m-t-50 {
+  margin-top: 50px; }
+
+.portal-bottom-pay-way-cell {
+  display: flex;
+  align-items: center; }
+
+.portal-recommend-list-wrapper img {
+  height: 180px;
+  width: 100%; }
+.portal-recommend-list-wrapper .img-list {
+  padding: 5px; }
+
+/*# sourceMappingURL=index.css.map */

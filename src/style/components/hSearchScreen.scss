@@ -1,0 +1,31 @@
+.h-search-Screen-container{
+  padding: 10px 0px 10px 15px;
+
+  .h-search-Screen{
+
+    &-title{
+      font-size: 1.5rem;
+      color: #333;
+      font-weight: bold;
+      padding-bottom: 7px;
+    }
+
+    &-checkbox{
+      display: flex;
+      flex-direction: column;
+      .checkbox-child{
+        padding: 8px 0px;
+      }
+    }
+  }
+
+  .h-search-Screen-btn-box{
+    width: 100%;
+    padding-right: 15px;
+    .h-search-Screen-btn{
+      width: 100%;
+      border-radius: 2px;
+    }
+  }
+
+}
